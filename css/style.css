@@ -1,11 +1,3 @@
-body{
-	background: url(../img/BG1.jpg) center center no-repeat;
-	background-size: cover;
-}
-.banner{
-	background: url(../img/banner1.jpg) center center no-repeat;
-	background-size: cover;
-}
 h1,h2{
 	color: #fff;
 }
@@ -18,7 +10,7 @@ h1,h2,h3,h5,h6{
 	line-height: 1.5;
 }
 .nor-text,.big-text{
-	color: #34512D ;
+	color: #fff ;
 }
 a.btn, button{
 	text-transform: uppercase;
@@ -32,7 +24,7 @@ a{
 }
 hr{
 	margin: 0px;
-	border-top: 2px solid rgba(52,81,45,.5);
+	border-top: 2px solid rgba(0,192,115,1);
 }
 
 .card:hover img{
@@ -72,6 +64,7 @@ hr{
 
 /*HEADER*/
 .header {
+	background: #004549;
 	position: fixed;
 	top: 0px;
 	left: 0px;
@@ -88,10 +81,10 @@ a.nav-link{
 	font-weight: 700;
 }
 a.nav-link.active {
-	color: #FFB8A4 !important;
+	color: #FFCF3C !important;
 }
 a.nav-link:hover {
-	color: #FFB8A4 !important;
+	color: #FFCF3C !important;
 }
 
 
@@ -102,18 +95,18 @@ ul .dropdown-menu{
 	box-shadow: 1px 1px 10px #333;
 }
 .dropdown-item{
-	color: #34512D;
+	color: #004549;
 	font-weight: 700;
 	text-transform: uppercase;
 	padding:16px 24px;
 }
 .dropdown-item:hover{
-	color: #FFB8A4;
-	background: #34512D;
+	color: #FFCF3C;
+	background: #004549;
 }
 .dropdown-active{
-	color: #34512D;
-	background: #FFB8A4;
+	color: #FFCF3C;
+	background: #004549;
 }
 
 .img-item{
@@ -131,10 +124,10 @@ ul .dropdown-menu{
 	background: #fff;
 }
 .breadcrumb-item.active{
-	color:#34512D ;
+	color:#00C073 ;
 }
 .breadcrumb a:hover{
-	color:#34512D;
+	color:#00C073;
 }
 .breadcrumb li{
 	font-size: 18px !important;
@@ -146,20 +139,19 @@ ul .dropdown-menu{
 
 /*EXPERIENCE*/
 .ex-card{
-	background: #34512D !important;
+	background: #004549 !important;
 	padding: 24px;
 	border-radius: 10px;
 	color: #fff;
 }
 .ex-card h5{
-	color: #FFB8A4;
+	color: #FFCF3C;
 }
 .edu h5{
-	color: #fff;
+	color: #FFCF3C;
 }
-.ex-card hr{
-	border-top: 2px solid rgba(255,255,255,.5);
-}
+
+
 
 
 /*PROJECT*/
@@ -202,7 +194,7 @@ ul .dropdown-menu{
 	left: 0px;
 	top: 100%;
 	right: 0px;
-	transition: 0.8s ease-out all;
+	transition: 0.5s ease-in all;
 }
 a.hob-thumb{
 	position: relative;
@@ -215,21 +207,23 @@ a.hob-thumb:hover .hob-content{
 
 /*FOOTER*/
 .footer{
-	background: #333;
+	background: #004549;
 	color: #fff;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 1.5;
 	font-weight: 400;
+	padding: 48px 0px;
+	box-shadow: 1px 3px 5px #333;
 }
 .footer-text{
 	color: #ccc;
 }
 .footer h6 {
 	text-transform: uppercase;
-	color: #FFB8A4;
+	color: #FFCF3C;
 }
 .footer-active{
-	color: #FFB8A4;
+	color: #FFCF3C;
 }
 .social{
 	font-size: 20px;
@@ -238,12 +232,12 @@ a.hob-thumb:hover .hob-content{
 
 /*COPYRIGHT*/
 .copyright{
-	background:#34512D ;
+	background:#333 ;
 	color: #fff;
 	font-size: 14px;
 	line-height: 1.5;
 	font-weight: 400;
 }
 .copyright a:hover{
-	color: #FFB8A4 ;
+	color: #FFCF3C ;
 }
